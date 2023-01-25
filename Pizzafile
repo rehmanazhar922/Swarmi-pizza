@@ -1,0 +1,9 @@
+version '1'
+create name=testing network=vpc1 mem=300MB repl=4 nginx
+_print_ Created nginx image on vpc1 4 replicas and this service name is testing
+scale testing=10
+_print_ testing service scaled to 10 replicas
+node ls
+_print_ Show all nodes
+node ps
+_print_ Shows running containers on all nodes
