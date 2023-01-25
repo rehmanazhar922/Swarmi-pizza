@@ -1,10 +1,16 @@
 # Commands
 
+```
 create = Like sudo docker service create
+
 scale = Like sudo docker service scale
+
 node  = Like sudo docker node
+
 _print_  =  echo -e
+
 version '1' = version that must be specifyed at the top of Pizzafile
+```
 
 
 # Vars
